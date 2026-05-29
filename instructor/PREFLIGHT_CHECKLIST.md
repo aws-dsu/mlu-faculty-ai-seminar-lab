@@ -58,8 +58,8 @@ Bedrock models require **per-account opt-in**. This is the #1 thing that fails o
 
 - [ ] `amazon.nova-lite-v1:0` — for Q&A and direct prompting
 - [ ] `amazon.nova-2-multimodal-embeddings-v1:0` — for RAG embeddings
-- [ ] `anthropic.claude-haiku-4-5-20251001` — for Part 2 comparison
-  - *Verify exact model ID is still current — Anthropic publishes new Haiku versions periodically*
+- [ ] `anthropic.claude-3-haiku-20240307-v1:0` — for Part 2 comparison
+  - *Most universally-enabled Haiku. If a newer Haiku (3.5, 4.x) is preferred, verify exact model ID in the Bedrock console first.*
 
 ### SageMaker Studio domains
 
