@@ -20,7 +20,7 @@ While the bridge instructor talks about *PartyRock → SageMaker*:
 
 - [ ] Open the notebook in SageMaker Studio
 - [ ] Run cells 1.1, 1.2, 1.3 to pre-warm everything
-- [ ] Run Part 2.1 (model setup) — verifies both Nova Lite and Claude Haiku are accessible
+- [ ] Run Part 2.1 (model setup) — verifies both Nova Lite and Mistral are accessible
 - [ ] Have the dentistry sample PDF loaded path ready for your demo
 - [ ] Slack channel open in a second window
 
@@ -57,7 +57,7 @@ If anything errors in pre-show, see "Common errors" at the bottom.
 1. **Run cells 2.1 (model setup).** Quick.
 2. **Stop at cell 2.2 (🟢 EDIT ME).** Walk over to a participant's screen if you can. *"Change this prompt to something from your field. Hit Shift+Enter."*
 3. **Give them 2 minutes** to write their own prompt and run it.
-4. **Run cell 2.3 yourself** (Claude Haiku, same prompt). Project the comparison.
+4. **Run cell 2.3 yourself** (Mistral, same prompt). Project the comparison.
 5. **Land the takeaway:** *"Same prompt. Different model. Different voice. This is the first thing you outgrow PartyRock for — choosing the right model for the job."*
 
 **Time check:** Done by 2:00.

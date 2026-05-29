@@ -11,7 +11,7 @@ Per the locked Lab 2 design decisions (see `../SEMINAR_PLAN.md`), we do **not** 
 | Persona | Filename | Status | Owner | Source |
 |---|---|---|---|---|
 | 1. Dentistry | `persona1_dentistry_perio_case.pdf` | ⬜ Not staged | — | — |
-| 2. Computer Science | `persona2_cs_data_structures.pdf` | ⬜ Not staged | — | — |
+| 2. Computer Science | `persona2_cs_data_structures.pdf` | ✅ Staged & tested | — | Open Data Structures by Pat Morin (CC-BY), Ch. 1 extract |
 | 3. English Literature | `persona3_english_victorian_essay.pdf` | ⬜ Not staged | — | — |
 | 4. Nursing | `persona4_nursing_pharmacology.pdf` | ⬜ Not staged | — | — |
 | 5. Business | `persona5_business_leadership_case.pdf` | ⬜ Not staged | — | — |

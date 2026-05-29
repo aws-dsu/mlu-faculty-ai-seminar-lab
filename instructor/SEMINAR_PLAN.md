@@ -94,7 +94,7 @@ Every component of Lab 2 already exists in the source repo as a working notebook
 
 ### Pre-flight checklist
 
-- [ ] Bedrock model access enabled per AWS account: `amazon.nova-lite-v1:0`, `amazon.nova-2-multimodal-embeddings-v1:0`, `anthropic.claude-haiku-*` (for Part 2 model swap)
+- [ ] Bedrock model access enabled per AWS account: `amazon.nova-lite-v1:0`, `amazon.nova-2-multimodal-embeddings-v1:0`, `mistral.mixtral-8x7b-instruct-v0:1` (for Part 2 model swap)
 - [ ] SageMaker Studio domain pre-provisioned (kernel cold-starts will eat 5–10 min otherwise)
 - [ ] Kernels pre-warmed before lunch ends (so 1:30 PM start is instant)
 - [ ] **6 sample PDFs sourced, license-checked, and staged in `data/`** (one per persona — see catalog below)
@@ -105,7 +105,7 @@ Every component of Lab 2 already exists in the source repo as a working notebook
 | # | Part | Decision |
 |---|---|---|
 | 1 | Part 1 (Notebook Tour) | **Watch only** — instructor screen-shares; non-coders don't click along |
-| 2 | Part 2 (Direct Prompting) | Model swap: **Nova Lite vs Claude Haiku** |
+| 2 | Part 2 (Direct Prompting) | Model swap: **Nova Lite vs Mistral Mixtral** *(Anthropic Claude not enabled in MLU training accounts)* |
 | 3 | Part 2 (Direct Prompting) | **Pre-fill** the prompt cell with a fun seed (haiku about your field) |
 | 4 | Part 3 (Upload + RAG) | **Provide 6 sample PDFs** (one per persona). BYO is optional only. |
 | 5 | Part 3 (Upload + RAG) | PDF size cap: **~50 pages** |

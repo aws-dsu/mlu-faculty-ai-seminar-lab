@@ -33,7 +33,7 @@ faculty-ai-seminar-lab2/
 - AWS account with **Amazon Bedrock** model access for:
   - `amazon.nova-lite-v1:0`
   - `amazon.nova-2-multimodal-embeddings-v1:0`
-  - `anthropic.claude-3-haiku-20240307-v1:0`
+  - `mistral.mixtral-8x7b-instruct-v0:1`
 - **SageMaker Studio** with a Python 3 (Data Science) kernel, `ml.t3.medium` or larger
 - Region: `us-east-1`
 

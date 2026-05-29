@@ -58,8 +58,8 @@ Bedrock models require **per-account opt-in**. This is the #1 thing that fails o
 
 - [ ] `amazon.nova-lite-v1:0` — for Q&A and direct prompting
 - [ ] `amazon.nova-2-multimodal-embeddings-v1:0` — for RAG embeddings
-- [ ] `anthropic.claude-3-haiku-20240307-v1:0` — for Part 2 comparison
-  - *Most universally-enabled Haiku. If a newer Haiku (3.5, 4.x) is preferred, verify exact model ID in the Bedrock console first.*
+- [ ] `mistral.mixtral-8x7b-instruct-v0:1` — for Part 2 comparison
+  - *Confirmed working in MLU training accounts (used in M3 Lab 3a). The MLU `mlu-bedrock-studio-models-SageMakerDomainRole` does NOT grant Anthropic Claude access — do not substitute Claude without verifying IAM policy first.*
 
 ### SageMaker Studio domains
 
@@ -107,7 +107,7 @@ The seminar starts at 9. Lab 2 starts at 1:30. You have all morning to pre-warm.
 - [ ] Sign in to your instructor SageMaker Studio account
 - [ ] Open the notebook
 - [ ] Run cells 1.1 – 1.3 (warms the kernel for your demo)
-- [ ] Confirm both Nova Lite and Claude Haiku respond (run Part 2)
+- [ ] Confirm both Nova Lite and Mistral respond (run Part 2)
 - [ ] Confirm sample dentistry PDF loads and embeds (run Part 3.2 – 3.4)
 - [ ] Leave the notebook open in a tab — you'll come back to it after lunch
 
@@ -137,7 +137,8 @@ The seminar starts at 9. Lab 2 starts at 1:30. You have all morning to pre-warm.
 
 - Fallback model IDs to try (in order):
   1. `amazon.nova-pro-v1:0` (replaces Nova Lite)
-  2. `anthropic.claude-sonnet-4-6` (replaces Claude Haiku)
+  2. `mistral.mistral-7b-instruct-v0:2` (smaller Mistral, lower-tier access)
+  3. `amazon.titan-text-express-v1` (last resort — older but broadly enabled)
 - If even fallbacks fail: pair them with another attendee for the lab
 
 ### If SageMaker Studio is slow/down for everyone
